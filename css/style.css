@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+}
+.head-tag{
+    float: right;
+    margin-top: 33px;
+    margin-right: 55px;
+}
+.head-tag a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.head-tag a:hover{
+    background-color: teal;
+    color: black;
+}
+
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+  }
+  .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+  }
+
+  .divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+
+.dist{
+  margin-left: 50%;
+  padding-left: 10%;
+}
+
+.list img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+
+.p-box{
+  border: 3px solid white;
+  width: 22%;
+  float: left;
+  margin-left: 10px;
+  height: 18em;
+  padding: 5px;
+  background-color: #cccccc;
+}
+.container{
+  /*border: 2px solid black;*/
+  margin-top: 7%;
+  margin-left: 3%;
+
+
+}
+.p-box a{
+  text-decoration: none;
+  color: red;
+}
