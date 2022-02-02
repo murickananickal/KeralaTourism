@@ -41,5 +41,5 @@ function validate(){
      else{
          return true;
      }
->>>>>>> Stashed changes
+
 }
